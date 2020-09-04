@@ -8,7 +8,7 @@ This program takes in the price of an item, amount given, and change in drawer. 
 - Looked up notes from class and 2d arrays.
 - Moved the change function from the initial function to the class functions
 - Learned how to use status as a string and function
-- CheckED the regular for loops to see if it will work.
+- Checked the regular for loops to see if it will work.
 - Fixed out of range by adding the pos > 0 condition in the loop
 - Made and instead of or
 - The money item was many brackets. I had to fix it so now it is on array.

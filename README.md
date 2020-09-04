@@ -1,4 +1,4 @@
-#Register
+# Register
 
 This program takes in the price of an item, amount given, and change in drawer. It tells the user how much change needs to be given, or if there is change left. This program is based on [this project](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/javascript-algorithms-and-data-structures-projects/cash-register)
 

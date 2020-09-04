@@ -4,7 +4,7 @@ This program takes in the price of an item, amount given, and change in drawer. 
 
 # Mistakes and changes
 - Set the variable to cash and customer1.cash had a higher number than the result i na calculator. I changed the variable.
-- it turns out the customer1 cash variable started at 20. Now it starts at 0.
+- The customer1 cash variable started at 20. Now it starts at 0.
 - Looked up notes from class and 2d arrays.
 - Moved the change function from the initial function to the class functions
 - Learned how to use status as a string and function

@@ -12,7 +12,6 @@ def check_cash_register(price, cash, *cid):
     if cash - price == total:
         status = "CLOSED"
     if cash - price > total:
-        # print(cash - price , total)
         status = "INSUFFICIENT_FUNDS"
     if cash - price < total:
         status = "OPEN"
@@ -33,7 +32,6 @@ def check_cash_register(price, cash, *cid):
 
     for row in cid:
         pos = len(row) - 1
-    # print(pos)
     change = [
         ["PENNY", 0],
         ["NICKEL", 0],
@@ -52,8 +50,6 @@ def check_cash_register(price, cash, *cid):
         cid[0][pos][1] = round(cid[0][pos][1], 2)
         change[pos][1] = round(change[pos][1], 2)
         if money[pos] <= give and cid[0][pos][1] > 0:
-            # print("{:.2f}".format(cid[0][pos][1]), "{:.2f}".format(give), money[pos])
-            # print((cid[0][pos][1]),(give), money[pos],change[pos][1])
             give = give - money[pos]
             cid[0][pos][1] = cid[0][pos][1] - money[pos]
             change[pos][1] = change[pos][1] + money[pos]

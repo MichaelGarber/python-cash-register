@@ -62,14 +62,7 @@ def check_cash_register(price, cash, *cid):
             cid[0][pos][1] = round(cid[0][pos][1], 2)
             give = round(give, 2)
             pos -= 1
-    # i = 0
-    # for i in range(len(change)):
-    #     print(change[i][1])
-    #     if change[i][1] == 0:
-    #          print(change[i])
 
-    # for c in change:
-    #     change = list(filter(c[1] == 0, change))
 
     if status == 'OPEN':
         change = [c for c in change if c[1] != 0]
